@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 50%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 100px;
+    background: url(./images/bg-header-mobile.png) no-repeat /cover;
+}
+header a{
+    width:80%;
+    display: block;
+    margin: 20px auto;
+    margin-left: 30px;
+}
+.dflex{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+.dflex .section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ordi{
+    width: 100%;
+}
+.article2{
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.logo img{
+    margin: 0 auto;
+    width:calc(80%/3);
+}
+.article3 a{
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+    margin-left: 30px;
+}
+.article3 h2{
+    width: 85%;
+    margin: 0 auto;
+}
+footer{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+}
+footer a{
+    width: 80%;
+    display: block;
+}
+footer img{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    flex-flow:column wrap;
+    flex-basis: 100%;
+}
+.lien{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
+}
+.dflex div{
+    margin-block: 25px;
+}

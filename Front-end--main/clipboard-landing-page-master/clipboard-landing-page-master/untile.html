@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport: largeur navigateur -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>essaie</title>
+    <style>
+        body{
+            background-color: #f0f;
+        }
+        .d{
+            visibility: visible;
+        }
+        .m{
+           display: none;
+        }
+        @media screen and (max-width:720px) {
+                body{
+                    background-color: yellow;
+                }
+                .m{
+                    display: block;
+                }
+                .d{
+                    display: none;
+                }
+            }
+    </style>
+</head>
+<body>
+    <h1 class="d">desktop</h1>
+    <h1 class="m">mobile</h1>
+</body>
+</html>

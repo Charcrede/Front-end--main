@@ -1,0 +1,170 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Baijamjure", sans-serif;
+    color: hsl(201, 11%, 66%) ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+h1{
+    font-size: 4rem; 
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+/* //////////////////////////////////////////////////////////////////
+                           HEADER
+////////////////////////////////////////////////////////////////// */
+header{
+    background: url(./images/bg-header-desktop.png) no-repeat;
+    padding-top: 100px;
+}
+header p{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+header a:first-of-type{
+    background-color: hsl(171, 66%, 44% );
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+header a:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+header a:hover{
+    padding: 12px 22px;
+}
+/* ////////////////////////////////////////////////////////////////
+                        MAIN
+//////////////////////////////////////////////////////////////// */
+/* -------------------------------------------
+                Article 1
+---------------------------------------------- */
+.clip{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+.dflex{
+    display: flex;
+    align-items: flex-end;
+    line-height: 1.5;
+}
+.section{
+    flex-basis: 35%;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+/* -------------------------------------------
+                Article 2
+---------------------------------------------- */
+article:nth-of-type(2) p{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.dflex div{
+    flex-basis:calc(100%/3);
+    margin-block: 100px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}   
+.logo img{
+    height: 3rem;
+    margin-bottom: 100px;
+}
+/* -------------------------------------------
+                Article 3
+---------------------------------------------- */
+.article3{
+    margin-bottom: 50px;
+}
+.article3 p{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.article3 a:first-of-type{
+    background-color: hsl(171, 66%, 44% );
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.article3 a:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.article3 a:hover{
+    padding: 12px 22px;
+}
+/* /////////////////////////////////////////////////////////////////
+                                FOOTER
+///////////////////////////////////////////////////////////////// */
+footer{
+    display: flex;
+    background-color: #eee;
+    padding: 25px 50px;
+    flex-flow: row wrap;
+}
+footer img{
+    height: 4rem;
+}
+.footer{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.lien{
+    display: flex;
+    gap: 50px;
+    flex-basis: 70%;
+    flex-flow: column wrap;
+    height: 100px;
+    align-content: space-evenly;
+}
+footer i{
+    font-size: 2rem;
+}
+.reseau{
+    display: flex;
+    gap: 20px;
+}
+footer a{
+    text-decoration: none;
+    color:hsl(210, 10%, 33%);
+}
+footer a:hover{
+    color: hsl(171, 66%, 44% );
+}
+.copy{
+    flex-basis: 100%;
+}
