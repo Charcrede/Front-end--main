@@ -1,0 +1,64 @@
+body{
+    background: url(./images/bg-mobile.png)no-repeat ;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, serif;
+}
+p, strong{
+    color:  hsl(243, 100%, 93%);
+}
+.wrapper{
+    max-width: 375px;
+    padding: 30px;
+}
+header{
+    background-color: #1e2c69;
+    margin-top: 100px;
+    height: 140px;
+    padding:30px;
+    border-radius: 10px 100px 10px 10px;
+}
+header>img{
+    margin-bottom: 30px;
+}
+header .dimg{
+    background-color: #0c122c;
+    display: inline-block;
+    height: 3rem;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.pereh{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+main{
+    background-color: #1e2c69;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.gene{
+    background-color: #0c122c;
+    border-radius: 50px;
+    height: 15px;
+    padding: 0;
+}
+.bgc{
+    background-image:linear-gradient( to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%)) ;
+    width: 75%;
+    border-radius: 50px;
+    margin: 0;
+}
+.point{
+    aspect-ratio: 1;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0;
+    margin-left: 93%;
+}
